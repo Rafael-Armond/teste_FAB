@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_speed_dial/flutter_speed_dial.dart';
-import 'package:testes_fab/custom_fab.dart';
 
 void main() {
   runApp(MyApp());
@@ -75,33 +73,6 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ],
         ),
-        // floatingActionButton: _fabExtended
-        //     ? CustomFab(isExtended: _fabExtended)
-        //     : CustomFab(isExtended: _fabExtended),
-        // floatingActionButton: SpeedDial(
-        //   children: [
-        //     SpeedDialChild(
-        //       child: Icon(Icons.add),
-        //       label: "Agendar agora",
-        //       onTap: () => print("Press Agendar agora"),
-        //     ),
-        //     SpeedDialChild(
-        //       child: Icon(Icons.article),
-        //       label: "Agendar por chatbot",
-        //       onTap: () => print("Press Agendar Chatbot"),
-        //     ),
-        //     SpeedDialChild(
-        //       child: Icon(Icons.assessment),
-        //       label: "Agendar por whatsapp",
-        //       onTap: () => print("Press Agendar WhatsApp"),
-        //     ),
-        //     SpeedDialChild(
-        //       child: Icon(Icons.arrow_circle_down),
-        //       label: "Agendar por ligacao",
-        //       onTap: () => print("Press Agendar Ligacao"),
-        //     )
-        //   ],
-        // ),
         floatingActionButton: _fabExtended
             ? FloatingActionButton.extended(
                 onPressed: null,
